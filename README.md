@@ -1,40 +1,45 @@
-# Hi, I'm Cheerstopriya
+# Priya Mali
 
-I build open-source Python tooling for safer, more testable AI-agent systems. I'm interested in software engineering roles involving Python, developer tools, testing, security, and agent infrastructure.
+Software engineer focused on **backend engineering, applied AI and security**.
+My experience at Visa includes enterprise application delivery, APIs and application controls.
+I build public developer tools with reproducible tests and clear evidence boundaries.
 
-![AuthDrift authority-revocation workflow](https://raw.githubusercontent.com/cheerstopriya/authdrift/main/docs/assets/authdrift-social-preview.jpg)
+## Selected work
 
-## Featured project
+### [AuthDrift — authorization regression testing](https://github.com/cheerstopriya/authdrift)
 
-### [AuthDrift](https://github.com/cheerstopriya/authdrift)
+Can a workflow still perform an action after its authority becomes invalid?
+AuthDrift pauses synchronous Python workflows after permission observation,
+changes authority and checks the resulting effect independently.
 
-**Can an AI agent still commit a tool effect after its authority is revoked?**
+- Positive, pre-revoked and mid-flight controls distinguish valid experiments from broken setups.
+- Refund, delegation, session and consumed-approval examples compare vulnerable and corrected behavior.
+- A reproducible showcase exports JSON reports and observed event history; CI runs on Windows and Ubuntu.
 
-AuthDrift is an MIT-licensed Python test harness that injects a confirmed authority change into a running workflow, resumes the same trajectory, and verifies the authoritative sink state.
+[Run the walkthrough](https://github.com/cheerstopriya/authdrift/blob/main/docs/showcase.md)
+· [Implementation evidence](https://github.com/cheerstopriya/authdrift/blob/main/docs/resume-claims.md)
+· [Published package](https://pypi.org/project/authdrift-harness/)
 
-[![PyPI](https://img.shields.io/pypi/v/authdrift-harness)](https://pypi.org/project/authdrift-harness/)
-[![Tests](https://github.com/cheerstopriya/authdrift/actions/workflows/tests.yml/badge.svg)](https://github.com/cheerstopriya/authdrift/actions/workflows/tests.yml)
-[![Python](https://img.shields.io/pypi/pyversions/authdrift-harness)](https://pypi.org/project/authdrift-harness/)
+The examples are synthetic fixtures, not production vulnerability discoveries.
+New main-branch examples may require the checkout rather than the v0.1.0 package examples.
 
-```text
-authority valid -> agent observes -> confirmed revocation
-                                      -> same run resumes -> did the sink change?
-```
+### [OpenPathAI — contribution intelligence](https://github.com/cheerstopriya/OpenPathAI)
 
-- Deterministic mid-flight authority-change injection
-- Independent revocation confirmation
-- Authoritative sink-state verification
-- Vulnerable and corrected refund, delegation, and session fixtures
-- No model credential required for the controlled examples
+Helps developers assess public GitHub repositories and find suitable contribution issues.
+Angular presents a FastAPI backend's six-dimension readiness assessment and ranked issue recommendations,
+including sample limits, confidence and source links.
 
-**Try it:** [installation and runnable demo](https://github.com/cheerstopriya/authdrift#installation-and-runnable-demo)  
-**Test your agent:** [integration guide](https://github.com/cheerstopriya/authdrift/blob/main/docs/integrating-your-agent.md)
+The next layer adds source-linked issue investigation. LLM generation, hybrid retrieval,
+MCP and retrieval evaluation are planned extensions until their implementation and results are published.
 
-## Current focus
+## Publications
 
-- AI-agent authorization and tool boundaries
-- Security regression testing
-- Python developer tooling
-- Reproducible experiments and release engineering
+- **Integrating Dual Strengths: A Hybrid Architecture Merging Decentralized Trust with Server-Side Efficiency for Enhanced Secure Transactions.** ICCSA 2024, Springer LNCS 14814, pp. 311–326. [Publication](https://doi.org/10.1007/978-3-031-64608-9_20)
+- **StealthGuard: Advanced Detection and Classification of Fileless Malware and URL Phishing.** ICSC 2024. [Conference program](https://e-university.tu-sofia.bg/e-conf/files/215/ComSci2024_Program_final.pdf)
 
-I'm open to software engineering opportunities and useful open-source collaborations.
+## Engineering interests
+
+Python · C#/.NET · SQL · TypeScript/Angular · API design · authentication and authorization
+· automated testing · AI workflow integration · developer tooling
+
+[LinkedIn](https://www.linkedin.com/in/priya-mali-007314204/)
